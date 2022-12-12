@@ -1,0 +1,3 @@
+---
+# vars file for role-demo
+package_name: httpd

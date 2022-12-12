@@ -1,0 +1,6 @@
+---
+# tasks file for role-demo
+- name: install httpd package
+  yum: name={{package_name}} state=latest
+  notify:
+  - restart apache
